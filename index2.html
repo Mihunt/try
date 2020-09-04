@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>  
+<html>  
+    <head>  
+        <title>  
+            How to change the background color 
+            after clicking the button ? 
+        </title> 
+    </head>  
+    <body style = "text-align:center;"> 
+                   <h1 style = "color:yellow;" >  
+            GeeksForGeeks  
+        </h1>  
+                  <p id = "GFG_UP" style = 
+            "font-size: 16px; font-weight: bold;">      
+        </p> 
+                  <button onclick = "gfg_Run()">  
+            Click here 
+        </button> 
+                  <p id = "GFG_DOWN" style = 
+            "color:red; font-size: 20px; font-weight: bold;"> 
+        </p> 
+          
+        <script> 
+
+        let s = "Hello, Vasea, how, are, you";
+        let x = s.split(','); 
+
+                for(var i = 0; i<x.length; i++ ){
+                    x[i] = x[i].trim()
+                }
+
+          /*  x.forEach(function(value, index){
+                x[index] = value.trim();
+            });*/
+           
+         //var y = x.map(Function.prototype.call.bind(String.prototype.trim))
+       
+        console.log(s);
+        console.log(x);
+        //console.log(y);
+        
+
+            /*let arr1 = [2, 4, 'ciupacabra' ];
+            console.log(arr1);
+            arr1.push('new ciupacabra',1    );
+            console.log(arr1);
+            let arr2 = arr1.pop();
+            console.log(arr2);*/
+
+          /*  var el_up = document.getElementById("GFG_UP"); 
+            var el_down = document.getElementById("GFG_DOWN"); 
+            var str = "Click on button to change the background color"; 
+          
+            el_up.innerHTML = str; 
+          
+            function changeColor(color) { 
+                document.body.style.background = color; 
+                       
+            } 
+            
+              
+            function gfg_Run() { 
+                changeColor('green'); 
+                 el_down.innerHTML = "Background Color changed";    
+            }    */    
+
+        </script>  
+    </body>  
+</html>            
